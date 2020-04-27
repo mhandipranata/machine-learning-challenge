@@ -14,13 +14,13 @@ Steps:
 
 Libraries we are using: pandas, sklearn, joblib.
 
-
+<br/>
 
 ## 1. Data Cleaning 
 
 By using Pandas, we read csv data (exoplanet_data.csv) and drop any 'N/A' in the data.  
    
-
+<br/>
 
 ## 2. Train Test Split
 
@@ -37,48 +37,47 @@ Depending on the models, we might need to encode the y categorical values to num
 
 Using train_test_split from sklearn library, we will split the data randomly to X_train, X_test, y_train, y_test.
 
-
+<br/>
 
 ## 3. Preprocess the raw data
 
 Depending on the models, we need to scale the features in X using MinMaxScaler from sklearn library.
 
-
+<br/>
 
 ## 4. Train and compare the models
 
   
 **Model 1: K Nearest Neighbors Model**
 
-Training Data Score: 0.6172038909021552
+Training Data Score: 0.6172038909021552\
 Testing Data Score: 0.5852402745995423
 
   
 **Model 2: Logistic Regression Model**
 
-Training Data Score: 0.6313179477398436
+Training Data Score: 0.6313179477398436\
 Testing Data Score: 0.6304347826086957
 
   
 **Model 3: GridSearchCV Model**
 
-Train Best score: 0.5872592027465192
+Train Best score: 0.5872592027465192\
 Test Best score: 0.6018306636155606
 
   
 **Model 4: Deep Learning Model**
 
-Loss: 0.6803219386587427
+Loss: 0.6803219386587427\
 Accuracy: 0.7110983729362488
 
   
 **Model 5: Decision Trees and Random Forest Model**
 
-Decision Trees Model Best Score: 0.6893592677345538
+Decision Trees Model Best Score: 0.6893592677345538\
 Random Forest Model Best Score: 0.7677345537757437
 
-
-  
+<br/>
   
 ## Conclusion
 
