@@ -41,7 +41,7 @@ Using train_test_split from sklearn library, we will split the data randomly to 
 
 ## 3. Preprocess the raw data
 
-    Depending on the models, we need to scale the features in X using MinMaxScaler from sklearn library.
+Depending on the models, we need to scale the features in X using MinMaxScaler from sklearn library.
 
 
 
@@ -78,6 +78,7 @@ Decision Trees Model Best Score: 0.6893592677345538
 Random Forest Model Best Score: 0.7677345537757437
 
 
+  
   
 ## Conclusion
 
